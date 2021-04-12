@@ -4,7 +4,7 @@
 
 This repository is used to get the list of trending videos from **youtube** and also gives the details about selected video.
 
-## Instruction run the project successfully
+## Instructions to run the project successfully
 |                |Frontend                          |Backend                         |
 |----------------|-------------------------------|-----------------------------|
 |cd in to the directory|`'cd /frontend'`            |'cd /backend'            |
