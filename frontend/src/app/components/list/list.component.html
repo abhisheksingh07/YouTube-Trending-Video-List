@@ -1,0 +1,27 @@
+<div class="bounds">
+
+	<div class="content" fxLayout="row" fxLayout.xs="column" fxFlexFill>
+
+		<div fxFlex="10" class="sec1" fxFlex.xs="55">
+		
+		</div>
+		<div fxFlex="80" class="sec3" fxFlex.xs="15">
+			<mat-card class="example-card" *ngFor="let show of searchResult">
+                <mat-card-header>
+                  <div mat-card-avatar class="example-header-image"></div>
+                  <mat-card-title>{{ show.videotitle }}</mat-card-title>
+                  <mat-card-subtitle>{{ show.description }}</mat-card-subtitle>
+                </mat-card-header>
+                <span></span>
+                <img style="margin-left:5%; width: 20%;height: 20%;"  mat-card-image  src="{{show.videothumbnail[0].thumbnail[0]}}" alt="Photo of a Shiba Inu">
+                 <mat-card-actions style="margin-left: 5%;">
+                  <button mat-button (click)="savedata(show._id)">Save</button>
+                  <button mat-button (click)="showDetails(show._id)">Show Details</button>
+                </mat-card-actions>
+              </mat-card>
+		</div>
+        <div fxFlex="10" class="sec1" fxFlex.xs="55">
+		</div>
+	</div>
+
+</div>
