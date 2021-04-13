@@ -14,5 +14,8 @@ This repository is used to get the list of trending videos from **youtube** and 
 
 
 > **Frontend:** Is running on **localhost:4200**.
+
 > **Backend:**  Is running on **localhost:4000**.
+
+> **TypeScript Error Resolve** npm i typescript
 
