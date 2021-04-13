@@ -4,6 +4,15 @@
 
 This repository is used to get the list of trending videos from **youtube** and also gives the details about selected video.
 
+
+## Prerequisite need to be installed
+ > **Node**
+ 
+ > **MongoDB**
+ 
+ > **Angular CLI Latest Version 11.x**
+  
+
 ## Instructions to run the project successfully
 |                |Frontend                          |Backend                         |
 |----------------|-------------------------------|-----------------------------|
