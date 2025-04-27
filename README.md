@@ -1,7 +1,4 @@
 # YouTube-Trending-Video-List
-
-# Details About Repository 
-
 This repository is used to get the list of trending videos from **youtube** and also gives the details about selected video.
 
 
@@ -29,5 +26,5 @@ This repository is used to get the list of trending videos from **youtube** and 
 > **TypeScript Error Resolve** npm i typescript
 
 
-# Demo Link >> http://139.59.37.34:4200/
+# Demo Link >> http://localhost:4200/
 
